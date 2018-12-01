@@ -1,5 +1,9 @@
 # dotfiles
 
+## Require Version
+
+- vim < 8.x
+
 ## Setup
 
 Using git

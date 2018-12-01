@@ -1,0 +1,22 @@
+[[plugins]]
+repo = 'cespare/vim-toml'
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+on_event = ['VimEnter']
+hook_add =  '''
+  colorscheme gruvbox
+  set background=dark
+  syntax on
+'''
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+depends = ['gruvbox']
+on_source = ['gruvbox']
+hook_add = '''
+  let g:lightline = {
+    \ "colorscheme": "gruvbox"
+    \ }
+  set laststatus=2
+'''

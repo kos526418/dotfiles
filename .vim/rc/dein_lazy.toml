@@ -1,0 +1,2 @@
+[[plugins]]
+repo = 'wakatime/vim-wakatime'

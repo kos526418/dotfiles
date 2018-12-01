@@ -1,0 +1,10 @@
+# local.bashrc by kos526418
+
+alias la="ls -a $*"
+alias vi="vim $*"
+
+rootdir=`dirname 0`
+
+source $rootdir/dev/bash-wakatime/bash-wakatime.sh
+
+PS1='$(if [[ $? == 0 ]]; then echo "\[\e[32m\]:)"; else echo "\[\e[31m\]:("; fi)\[\e[0m\] \u \w $ '

@@ -2,6 +2,13 @@
 repo = 'cespare/vim-toml'
 
 [[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = 'nnoremap <silent><C-e> :NERDTreeToggle<CR>'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
 repo = 'morhetz/gruvbox'
 on_event = ['VimEnter']
 hook_add =  '''
@@ -19,4 +26,11 @@ hook_add = '''
     \ "colorscheme": "gruvbox"
     \ }
   set laststatus=2
+'''
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = '''
+  let g:indent_guides_enable_on_vim_startup = 1
+  let g:indent_guides_guide_size = 1
 '''

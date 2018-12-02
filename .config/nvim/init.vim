@@ -10,6 +10,6 @@ set noundofile
 set viminfo=
 set backspace=indent,eol,start
 
-source ~/AppData/Local/nvim/init.local.vim
-source ~/AppData/Local/nvim/init.plugs.vim
-source ~/AppData/Local/nvim/init.style.vim
+source ~/.config/nvim/init.local.vim
+source ~/.config/nvim/init.plugs.vim
+source ~/.config/nvim/init.style.vim

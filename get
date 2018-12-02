@@ -1,0 +1,1 @@
+curl https://raw.githubusercontent.com/kos526418/dotfiles/lite/$1 -o ~/.$1

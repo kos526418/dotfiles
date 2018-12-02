@@ -4,8 +4,8 @@ kos526418's dotfiles
 
 ## Overview
 
-Require Vim < 8.x
-Recommended Bash < 4.x
+- Require Vim < 8.x
+- Recommended Bash < 4.x
 
 ## Setup for Git
 

@@ -1,9 +1,6 @@
-# local.bashrc by kos526418
+# .local_bashrc by kos526418
 
-alias la="ls -a $*"
-alias vi="vim $*"
-
-rootdir=`dirname 0`
+rootdir=$(cd $(dirname 0); pwd)
 
 source $rootdir/dev/bash-wakatime/bash-wakatime.sh
 

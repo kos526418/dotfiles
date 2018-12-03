@@ -1,14 +1,6 @@
-# .bashrc
+# .bashrc by kos526418
 
-# User specific aliases and functions
+rootdir=$(cd $(dirname 0); pwd)
 
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
-
-source ~/.local_bashrc
+source $rootdir/bashrc
+source $rootdir/.local_bashrc

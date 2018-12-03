@@ -29,11 +29,11 @@ Coming Soon
 ## Using get script
 
 ```bash
-curl https://raw.githubusercontent.com/kos526418/dotfiles/lite/get | bash -s -- [name]
+curl https://raw.githubusercontent.com/kos526418/dotfiles/master/get | bash -s -- [name]
 ```
 
 Example: Get ".vimrc"
 
 ```bash
-$ curl https://raw.githubusercontent.com/kos526418/dotfiles/lite/get | bash -s -- vimrc
+$ curl https://raw.githubusercontent.com/kos526418/dotfiles/master/get | bash -s -- vimrc
 ```

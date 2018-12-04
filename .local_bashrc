@@ -1,3 +1,4 @@
+alias b='bash'
 alias ..='cd ..'
 alias cdn='cd `find -mindepth 1 -maxdepth 1 -type d | xargs ls -td | head -n 1`'
 alias cp='cp -i'

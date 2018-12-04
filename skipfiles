@@ -1,4 +1,2 @@
 .git
-.gitconfig.local.template
 .gitignore
-.gitmodules

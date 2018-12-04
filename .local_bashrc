@@ -1,3 +1,4 @@
+
 alias ..='cd ..'
 alias b='bash'
 alias cdn='cd `find -mindepth 1 -maxdepth 1 -type d | xargs ls -td | head -n 1`'
@@ -22,7 +23,9 @@ alias vi='vim'
 export HISTCONTROL=ignoredups
 export HISTSIZE=10000
 function ghcl() { git clone https://github.com/$1 $2; }
-function ghcl2() { mkdir -p $1; git clone https://github.com/$1/$2 $1/$2; }
+function ghcl_ssh() { git clone git@github.com:$1 $2; }
+function ghcln() { mkdir -p $1; git clone https://github.com/$1/$2 $1/$2; }
+function ghcln_ssh() { mkdir -p $1; git clone git@github.com:$1/$2 $1/$2; }
 function ghget() { curl -O https://raw.githubusercontent.com/$1; }
 function mf() { /dev/null > $1; }
 function sorting() { sort -o $1 $1; }
